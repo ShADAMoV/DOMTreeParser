@@ -19,7 +19,7 @@
  *  написание тестов для функционала методов
 
 ИСХОДНЫЕ ДАННЫЕ:
-[class TreeStore {}
+class TreeStore {}
 
 const items = [
     { id: 1, parent: 'root' },
@@ -33,7 +33,7 @@ const items = [
     { id: 7, parent: 4, type: null },
     { id: 8, parent: 4, type: null },
 ];
-const ts = new TreeStore(items);]
+const ts = new TreeStore(items);
 
 
  Примеры использования:
