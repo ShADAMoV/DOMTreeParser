@@ -52,17 +52,6 @@ class TreeStore {
 
         return result;
     }
-
-    // Возвращает родителя элемента по id
-    // P.S. Мне уже пора было укладываться спать, так как завтра ждут дела, из-за чего не смог закончить данный метод с использованием TS
-    // P.S.S. Я закомментил то, что по-идее бы выполняло требуемый функционал, но TS решил меня огорчить...
-    // getAllParents(id) {
-    //     let result = this.getItem(this.getItem(id).parent)
-    //     while (result.parent !== 'root') {
-    //         result = result.concat(this.getAllParents(result.id))
-    //     }
-    //     return result
-    // }
 }
 
 const items = [
